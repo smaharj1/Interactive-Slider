@@ -56,5 +56,9 @@ From my own code, I worked with **Jade Template** to write my HTML file. If you 
             li
                 span.high HTML/CSS
 
+## Example of its use
+![Alt text](https://github.com/smaharj1/Interactive-Slider/blob/master/Capture.PNG?raw=true "Example view")
+
+
 ## Final Words
 I hope you liked this tool. If you have any questions, or if anything doesn't work, feel free to reach me @ smaharj1@ramapo.edu
