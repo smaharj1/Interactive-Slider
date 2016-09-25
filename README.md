@@ -1,4 +1,4 @@
-# Interactive Slide
+# Interactive Slider
 Interactive slide is a small tool that helps to make any of the feature in your website beautiful. I used it to boost my skills section of my portfolio, and then realized that some of my friends really liked it and did one for their own.
 So, this tiny tool will really boost your web skills.
 
