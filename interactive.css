@@ -1,0 +1,26 @@
+/*
+    Created by: Sujil Maharjan 
+    Email: smaharj1@ramapo.edu
+*/
+
+.interactive-slide span {
+    display: inline-block;
+    background-color: lightgrey;
+    min-width: 200px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.skill-high {
+    background-color: #00C957;
+}
+
+.skill-medium {
+    background-color: #FFA500;
+}
+
+.skill_low {
+    background-color: #1E90FF;
+}
