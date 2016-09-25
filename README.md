@@ -6,7 +6,9 @@ So, this tiny tool will really boost your web skills.
 To use this tool, all you need is to download *interactive.js* and *interactive.css*. Put the CSS and JS files in their respective folder. The folder structures vary with your preferred way.
 For example, *ExpressJS* will generate the path for JS files and CSS files to
 > mainProject/public/javascripts
+>
 > mainProject/public/stylesheets
+
 I am going to assume these as the paths for rest of the document
 
 Both of these files consists of style modifications that will eventually modify the characteristics of your class.
