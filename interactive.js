@@ -11,15 +11,15 @@ $(document).ready(function() {
 
         // If the skill is high, then turn the background to green and put the width to 100%
         if (isHigh) {
-            $(this).addClass('skill-high').animate({
+            $(this).css('background-color','#00C957').animate({
                 width: '100%'
             }, 'slow')
         } else if (isMedium) {
-            $(this).addClass('skill-medium').animate({
+            $(this).css('background-color','#FFA500').animate({
                 width: '50%'
             }, "slow");
         } else {
-            $(this).addClass('skill-low').animate({
+            $(this).css('background-color','#1E90FF').animate({
                 width: '30%'
             }, "slow");
         }
