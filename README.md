@@ -9,7 +9,7 @@ For example, *ExpressJS* will generate the path for JS files and CSS files to
 >
 > mainProject/public/stylesheets
 
-I am going to assume these as the paths for rest of the document
+You can directly copy the code below and place it inside `<head>` of your html document. It will make a call to my github directly. This is useful if you are building a small web application. If you are building bigger apps, download the files and make it available locally. (I might remove this from GitHub. You never know :smile: )
 
 Both of these files consists of style modifications that will eventually modify the characteristics of your class.
 Inside `<head>` of your html file, you need to include these lines:
@@ -18,10 +18,10 @@ Inside `<head>` of your html file, you need to include these lines:
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     
     // Change the path accordingly inside the ""
-    <script src="/javascripts/interactive.js"/>
+    <script src="https://rawgithubusercontent.com/smaharj1/Interactive-Slider/master/interactive.css"/>
 
     // Change the path accordingly inside the ""
-    <link rel='stylesheet' href='stylesheets/interactive.css'>
+    <link rel='stylesheet' href='https://rawgithubusercontent.com/smaharj1/Interactive-Slider/master/interactive.js'>
 
 ### Use the tools
 This tool is used inside the list. You will need to put your list inside `.interactive-slide` class and the contents of the list inside `<span>`. This is done simply to make the content interactive and the parent of the content 
