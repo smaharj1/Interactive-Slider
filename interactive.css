@@ -12,15 +12,3 @@
     text-align: center;
     cursor: pointer;
 }
-
-.skill-high {
-    background-color: #00C957;
-}
-
-.skill-medium {
-    background-color: #FFA500;
-}
-
-.skill_low {
-    background-color: #1E90FF;
-}
