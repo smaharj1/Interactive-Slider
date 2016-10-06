@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Interactive-slider : A tool to modify and make your website amazing!">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Interactive-slider</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/smaharj1/Interactive-Slider">View on GitHub</a>
+
+          <h1 id="project_title">Interactive-slider</h1>
+          <h2 id="project_tagline">A tool to modify and make your website amazing!</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/smaharj1/Interactive-Slider/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/smaharj1/Interactive-Slider/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="interactive-slider" class="anchor" href="#interactive-slider" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Interactive Slider</h1>
+
+<p>Interactive slide is a small tool that helps to make any of the feature in your website beautiful. I used it to boost my skills section of my portfolio, and then realized that some of my friends really liked it and did one for their own.
+So, this tiny tool will really boost your web skills.</p>
+
+<h2>
+<a id="getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting started</h2>
+
+<p>To use this tool, all you need is to download <em>interactive.js</em> and <em>interactive.css</em>. Put the CSS and JS files in their respective folder. The folder structures vary with your preferred way.
+For example, <em>ExpressJS</em> will generate the path for JS files and CSS files to</p>
+
+<blockquote>
+<p>mainProject/public/javascripts</p>
+
+<p>mainProject/public/stylesheets</p>
+</blockquote>
+
+<p>You can directly copy the code below and place it inside <code>&lt;head&gt;</code> of your html document. It will make a call to my github directly. This is useful if you are building a small web application. If you are building bigger apps, download the files and make it available locally. (I might remove this from GitHub. You never know <g-emoji alias="smile" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f604.png" ios-version="6.0">😄</g-emoji> )</p>
+
+<p>Both of these files consists of style modifications that will eventually modify the characteristics of your class.
+Inside <code>&lt;head&gt;</code> of your html file, you need to include these lines:</p>
+
+<pre><code>// This will include JQuery to your HTML file so that your web app can render javascript file
+&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"&gt;&lt;/script&gt;
+
+// Change the path accordingly inside the ""
+&lt;script src="https://rawgithubusercontent.com/smaharj1/Interactive-Slider/master/interactive.css"/&gt;
+
+// Change the path accordingly inside the ""
+&lt;link rel='stylesheet' href='https://rawgithubusercontent.com/smaharj1/Interactive-Slider/master/interactive.js'&gt;
+</code></pre>
+
+<h3>
+<a id="use-the-tools" class="anchor" href="#use-the-tools" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Use the tools</h3>
+
+<p>This tool is used inside the list. You will need to put your list inside <code>.interactive-slide</code> class and the contents of the list inside <code>&lt;span&gt;</code>. This is done simply to make the content interactive and the parent of the content 
+a block. </p>
+
+<p>In <code>&lt;span&gt;</code>, include one of the classes <em>high</em> or <em>medium</em>. This will define how you would like your elements to slide. By default, <em>high</em> is green in color, <em>medium</em> is orange and low is blue. You don't have to mention low. 
+It is considered low by default. You can ofcourse change the color of your choice by going in to <em>interactive.css</em></p>
+
+<p>Example: </p>
+
+<pre><code>&lt;div class="interactive-slide"&gt;
+    &lt;ol&gt;
+        &lt;li&gt;&lt;span class="high"&gt;Java&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;span class="high"&gt;C++&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;span class="medium"&gt;C&lt;/span&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>From my own code, I worked with <strong>Jade Template</strong> to write my HTML file. If you want to learn Jade, please follow this link: <a href="http://learnjade.com/tour/intro/">http://learnjade.com/tour/intro/</a></p>
+
+<pre><code>#skills.interactive-slide
+    h1.header-color I also have skills in few languages and technologies
+    p.small-font (Hover over to find out my skill level)
+    p.small-font Index: Green = High, Orange = Medium, Blue = Have encountered with it at some point
+    ol
+        li
+            span.high Java 
+        li
+            span.high C++
+        li
+            span.medium C
+        li
+            span.high HTML/CSS
+</code></pre>
+
+<h2>
+<a id="example-of-its-use" class="anchor" href="#example-of-its-use" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Example of its use</h2>
+
+<p><img src="https://github.com/smaharj1/Interactive-Slider/blob/master/Capture.PNG?raw=true" alt="Alt text" title="Example view"></p>
+
+<h2>
+<a id="final-words" class="anchor" href="#final-words" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Final Words</h2>
+
+<p>I hope you liked this tool. If you have any questions, or if anything doesn't work, feel free to reach me @ <a href="mailto:smaharj1@ramapo.edu">smaharj1@ramapo.edu</a></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Interactive-slider maintained by <a href="https://github.com/smaharj1">smaharj1</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
